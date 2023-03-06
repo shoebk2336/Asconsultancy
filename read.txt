@@ -1,0 +1,55 @@
+{
+      title: 'Why Choose a Career in the BPO Industry?',
+      text:
+      " The BPO industry is an important part of the Indian economy and has seen tremendous growth over the years. The industry has played a significant role in creating job opportunities for thousands of individuals and has contributed to the growth of the Indian economy. The BPO industry provides various job opportunities ranging from customer service, technical support, data entry, and back-office support to name a few.",
+      image:
+        'https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    },
+    {
+      title: 'What to Expect from the BPO Industry?',
+      text:
+      "The BPO industry is known for providing job opportunities to candidates with varied backgrounds and skill sets. It provides a platform for young and dynamic individuals to explore their potential and achieve their career goals. The industry is known for its employee-friendly policies, which provide a healthy work-life balance and opportunities for professional growth.The BPO industry offers various job roles, including customer service, technical support, sales, back-office support, and data entry. These job roles require different skill sets and offer various opportunities for professional growth. The industry is also known for providing competitive salaries and other benefits such as health insurance, transportation facilities, and retirement benefits.",
+      image:
+        'https://images.unsplash.com/photo-1438183972690-6d4658e3290e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2274&q=80',
+    },
+    {
+      title: 'How Can AS Consultancy Help You?',
+      text:
+      " At AS Consultancy, we are committed to bringing job opportunities to our beloved Jalgaon district. We understand the challenges faced by individuals in finding the right job opportunities and hence we are here to help you. We work with various BPO companies and have a wide network of industry professionals, which enables us to bring the best job opportunities to you.Our team of experts works with you to understand your skill sets, aspirations, and career goals to provide you with job opportunities that match your profile. We provide you with all the necessary training and guidance to help you succeed in your job. We ensure that you are fully prepared to take on your new role and provide you with support throughout your job journey.",
+      image:
+        'https://images.unsplash.com/photo-1507237998874-b4d52d1dd655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    },
+    {
+        title: 'How we are helping you?',
+        text:
+        " We are offering our assistance to help you find employment in the BPO sector at no cost to you. All you need to do is share your resume with us, and within 72 hours, we will reach out to you to conduct a brief telephone interview. If you pass the interview, we will forward your resume to one of the companies listed with us, and you will receive further details.Having experienced the difficulties of finding a job in a new city, I understand the struggles that people face, especially those from smaller towns trying to find work in larger cities like Pune. My goal is to serve as a bridge to connect you with these employment opportunities, so you don't have to go through the same struggles I did. I want to ensure that no one has to suffer to find a job.For those whose resumes do not get shortlisted due to communication skills, my team will provide free basic training. I believe that people from Jalgaon district should have job opportunities to develop their skills and earn a living, and I will do everything in my power to make it happen. All we need is your support.",
+        image:
+          'https://images.unsplash.com/photo-1507237998874-b4d52d1dd655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+      },
+
+
+
+
+        spacing={6}
+                w={'full'}
+                maxW={'lg'}
+                position="absolute"
+                top="50%"
+                transform="translate(0, -50%)"
+
+
+
+                <Button
+    
+ 
+    onClick={()=>dispatch(Lang(lang==="English"?"Marathi":"English"))}
+    _hover={{bg:'green.300'}}
+    color={"white"}
+    bg={"green.300"}
+    fontWeight={"600"}
+    fontSize={{base:"10px",md:"12px",lg:"15px"}}
+   
+    
+    >
+    {lang==="English"?"English":"मराठी"}
+    </Button>
